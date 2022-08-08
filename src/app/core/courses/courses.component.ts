@@ -28,6 +28,7 @@ export class CoursesComponent implements OnInit {
     }
     this.refresh()
   }
+  
   filter(input: string): void {
     let itemList = this.courses.slice();
     input = input.toLowerCase();
